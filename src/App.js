@@ -16,7 +16,14 @@ function App() {
 
   const handleSubmit = event => {
     event.preventDefault();
-    setTextOutput('Your formatted text will go here!')
+
+    if (conversionMode === 'lowercase') {
+      setTextOutput(textInput.toLowerCase());
+
+    } else if (conversionMode === 'uppercase') {
+      setTextOutput(textInput.toUpperCase());
+
+    }
   };
 
   return (
