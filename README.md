@@ -2,7 +2,7 @@
 
 This is the take home assignment that Collabies will complete before the technical review for [The Collab Lab](https://the-collab-lab.codes/).
 
-This repo was forked, completed, and sent to a Career Lab mentor in order to conduct a mock technical interview.
+This repo was forked, completed, and sent to a Career Lab mentor in order to conduct a mock technical interview. The deployed app can be found here: https://connietran-dev.github.io/take-home-assignment/
 
 Below were the instructions we received.
 
