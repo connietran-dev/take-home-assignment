@@ -1,19 +1,16 @@
 # Career Lab | Take-Home Assignment
 
-This is the take home assignment that Collabies will complete before the technical review for Career Lab.
+This is the take home assignment that Collabies will complete before the technical review for [The Collab Lab](https://the-collab-lab.codes/).
 
-Please fork this repo, complete the assignment, and once you are finished, send a link to your repo to the Collab Lab mentor that will be conducting your technical interview.
+This repo was forked, completed, and sent to a Career Lab mentor in order to conduct a mock technical interview.
+
+Below were the instructions we received.
+
+Happy reading!
 
 ---
 
-## How to run this project on your computer
-
-1. Fork this repo.
-![Fork button on Github](https://cdn.zappy.app/b2897d9afa278e5019c028d809e96b23.png)
-2. Clone your fork to your local machine: `git clone <url of your repo>`
-![Repo URL for cloning on Github](https://cdn.zappy.app/fddb551fe494bfc18d18e3009c455b30.png)
-3. In the project directory, run `npm install && npm start`
-4. Open the project at [localhost:3000](http://localhost:3000)
+Please fork this repo, complete the assignment, and once you are finished, send a link to your repo to the Collab Lab mentor that will be conducting your technical interview.
 
 ---
 
@@ -48,3 +45,14 @@ Your code will be evaluated on three criteria:
 - **Idiomatic code style:** Does it follow the stylistic conventions of the language, such as indentation and capitalization?
 
 Come to your technical interview ready to talk about this app and the code you wrote for it. Do your best, and happy coding!
+
+---
+
+## How to run this project on your computer
+
+1. Fork this repo.
+![Fork button on Github](https://cdn.zappy.app/b2897d9afa278e5019c028d809e96b23.png)
+2. Clone your fork to your local machine: `git clone <url of your repo>`
+![Repo URL for cloning on Github](https://cdn.zappy.app/fddb551fe494bfc18d18e3009c455b30.png)
+3. In the project directory, run `npm install && npm start`
+4. Open the project at [localhost:3000](http://localhost:3000)
