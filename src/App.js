@@ -1,10 +1,13 @@
 import './App.css';
 import { useState } from "react";
 
+import ListItem from './ListItem/ListItem';
+
 function App() {
   const [textInput, setTextInput] = useState('Here is some example text.');
   const [conversionMode, setConversionMode] = useState('lowercase');
   const [textOutput, setTextOutput] = useState('');
+  const [outputList, setOutputList] = useState([]);
 
   const handleRadioChange = event => {
     setConversionMode(event.target.value);
@@ -17,11 +20,18 @@ function App() {
   const handleSubmit = event => {
     event.preventDefault();
 
+    // TODO: Set state outside of conditional
     if (conversionMode === 'lowercase') {
-      setTextOutput(textInput.toLowerCase());
+      const lowerOuput = textInput.toLowerCase();
 
+      setTextOutput(lowerOuput);
+      setOutputList([...outputList, lowerOuput]);
+   
     } else if (conversionMode === 'uppercase') {
-      setTextOutput(textInput.toUpperCase());
+      const upperOutput = textInput.toUpperCase();
+
+      setTextOutput(upperOutput);
+      setOutputList([...outputList, upperOutput]);
 
     }
   };
@@ -68,6 +78,14 @@ function App() {
             <output id="result">{textOutput}</output>
           </div>
         </form>
+
+      <h2>Your Submitted Entries</h2>
+      <ul>
+        {outputList.map((output, index) => (
+          <ListItem key={index} output={output} index={index}/>
+        ))}
+      </ul>
+
     </div>
   );
 }
